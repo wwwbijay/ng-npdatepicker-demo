@@ -1,0 +1,9 @@
+/* You can add global styles to this file, and also import other style files */
+.nepali-date-picker.dark .np_datepicker_input{
+    border: none;
+    border-bottom: 1px solid rgb(204, 204, 204);
+  }
+.nepali-date-picker.dark .np_datepicker_input:focus {
+    border-bottom: 1px solid #ccc;
+    outline: none;
+}
