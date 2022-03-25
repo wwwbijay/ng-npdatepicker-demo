@@ -95,6 +95,36 @@
           </div><!--.card-body ends-->
         </div><!--.card ends-->
 
+
+        <!-- # hasFuture Usage -->
+        <div class="card">
+          <h5 class="card-header">hasFuture Usage</h5>
+          <div class="card-body">
+            <div class="row">
+              <div class="col col-6 html">
+                <p>
+                  We can disable future using 'hasFuture' to 'true' or 'false';
+                </p>
+                <np-datepicker [(ngModel)]="nepaliDate4" [hasFuture]="false" ></np-datepicker>
+                <div class="output">
+                  <h4 class="output-title">Output:</h4>
+                  <div *ngIf="nepaliDate4">
+                    <p>day: {{ nepaliDate4.day }},</p>
+                    <p>month: {{ nepaliDate4.month }},</p>
+                    <p>year: {{ nepaliDate4.year }}</p>
+                  </div>
+                </div><!--.output ends-->
+              </div><!--.col.code ends-->
+              <div class="col html">
+                <h3>Code</h3>
+                <code>
+                  &lt;np-datepicker [(ngModel)]="nepaliDate"  [hasFuture]="false" &gt; &lt;/np-datepicker&gt;
+                </code>
+              </div><!--.col.code ends-->
+            </div><!--.row ends-->
+          </div><!--.card-body ends-->
+        </div><!--.card ends-->
+
         <!-- # Custom Style Usage -->
         <div class="card">
           <h5 class="card-header">Custom Style</h5>
@@ -104,13 +134,13 @@
                 <p>
                   We can also add custom styles to the input form.
                 </p>
-                <np-datepicker [(ngModel)]="nepaliDate3" theme="dark"></np-datepicker>
+                <np-datepicker [(ngModel)]="nepaliDate5" theme="dark"></np-datepicker>
                 <div class="output">
                   <h4 class="output-title">Output:</h4>
-                  <div *ngIf="nepaliDate3">
-                    <p>day: {{ nepaliDate3.day }},</p>
-                    <p>month: {{ nepaliDate3.month }},</p>
-                    <p>year: {{ nepaliDate3.year }}</p>
+                  <div *ngIf="nepaliDate5">
+                    <p>day: {{ nepaliDate5.day }},</p>
+                    <p>month: {{ nepaliDate5.month }},</p>
+                    <p>year: {{ nepaliDate5.year }}</p>
                   </div>
                 </div><!--.output ends-->
               </div><!--.col.code ends-->
@@ -124,7 +154,6 @@
                   CSS style
                 </h5>
                 <code>
-                  
                   .nepali-date-picker .np_datepicker_input &#123;<br>
                   &nbsp;&nbsp;border: none;<br>
                   &nbsp;&nbsp;border-bottom: 1px solid rgb(204, 204, 204);<br>

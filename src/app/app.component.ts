@@ -10,4 +10,6 @@ export class AppComponent {
   nepaliDate1:any;
   nepaliDate2:any;
   nepaliDate3:any;
+  nepaliDate4:any;
+  nepaliDate5:any;
 }
