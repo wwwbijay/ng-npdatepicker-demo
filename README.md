@@ -1,6 +1,6 @@
-# Npdpdemo
+# Angular Datepicker demo project
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
+This is a demo project for angular nepali datepicker package.
 
 ## Development server
 
